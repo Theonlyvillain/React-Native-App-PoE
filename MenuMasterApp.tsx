@@ -1,8 +1,6 @@
-// App.tsx
-
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, TextInput, Button, FlatList, TouchableOpacity, Alert, Keyboard } from 'react-native';
-import uuid from 'react-native';
+import uuid from 'react-native-uuid'; // Correcting the import for UUID generation
 
 // Define the type for a dish
 interface Dish {
@@ -143,6 +141,8 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+    
 
 
 
