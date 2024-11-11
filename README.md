@@ -2,7 +2,7 @@
 
 // App.tsx
 
-Updates and Enhancements
+Updates and Enhancements from part 2
 1. State Management and Persistence with SharedPreferences
 In the final version of the app, I implemented a mechanism to persist the list of dishes across app restarts using SharedPreferences. The dishes are now stored in memory using a SharedPreferencesManager class. This ensures that any dishes added or edited by the user will be saved, and when the app is reopened, the list of dishes will be automatically loaded and displayed. This was accomplished by using Gson to serialize the list of dishes into a JSON format for storage, and deserializing them back into a list when needed.
 
